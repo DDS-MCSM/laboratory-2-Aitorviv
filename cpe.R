@@ -71,7 +71,7 @@ ParseCPEData <- function() {
   cpe.file <- "./official-cpe-dictionary_v2.3.xml"
   
   if(!file.exists(cpe.file)){
-    Descargar()
+    Download()
   }
 
   # load cpes as xml file
